@@ -40,11 +40,25 @@ function stringHandsOn()
 
     console.log("4.","Total number Removed extra spaces count are in step 3: ",totalLength-AfterTrimLength);
     console.log("5.","First and last character after the trim: ",Trimspaces.charAt(0) ,Trimspaces.charAt(AfterTrimLength-1));
+
+    var NumberOfwords=Trimspaces.split(" ");
+
     
+    console.log("6.",`Count the total number of words available in the string after step:3:  ${NumberOfwords.length} `);
 
    
+
+   console.log("7.","Index of word good is : ",Trimspaces.indexOf("good"));
+   console.log("8.","print the substring starting from index 22, using substring() and slice() : ",Trimspaces.substring(22),Trimspaces.slice(22));
+
+
     
-    
+
+var result = Trimspaces.endsWith("up");
+console.log("9.",` Is ${Trimspaces} ends with character "up" : ${result}`);
+
+var result = Trimspaces.startsWith("Hey");
+console.log("9.",` Is ${Trimspaces} starts with character "Hey" : ${result}`);
 }
 
 stringHandsOn();
