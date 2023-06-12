@@ -1,0 +1,38 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise Elemnts!</title>
+</head>
+<body>
+    <main>
+        <div id="overview">
+            <h1> HTML and JavaScript are crucial technologies</h1>
+        </div>
+        <div id="advantages">
+            <ul>
+                <li>Flexiable</li>
+                <li>Available</li>
+                <li>Magical</li>
+            </ul>
+        </div>
+    </main>
+    <script>
+        //Solution code will write here
+
+        const mainHeading = document.querySelector("h1");
+        console.log(mainHeading.innerHTML);
+
+        const secondAdvantages= document.querySelectorAll("li");
+        console.log(secondAdvantages[1].innerHTML);
+
+        const advDiv = document.querySelector("#advantages")
+
+       console.log(advDiv.innerHTML);
+      
+    </script>
+</body>
+</html>
