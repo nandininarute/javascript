@@ -1,0 +1,43 @@
+
+*{
+
+    padding:0px;
+    margin:0px;
+}
+
+.container{
+
+    margin-left:150px;
+    margin-right:200px;
+    height: 750px;
+}
+.mangodb{
+
+    display: inline-block;
+    border: 0px solid #d1cccc;
+    text-align: center;
+    height: 700px;
+
+}
+.mysql{
+    display: inline-block;
+    border: 0px solid #d1cccc;
+    text-align: center;
+    height: 700px;
+    position: absolute;
+}
+.usecasemdb{
+    background-color: #7cfc00;
+    font-size: large;
+    padding: 5px;
+}
+.usecasemsql{
+    background-color: #ffa500;
+    font-size: large;
+    padding: 5px;
+}
+
+.content{
+    height: 60px;
+    padding-top: 30px;
+}
