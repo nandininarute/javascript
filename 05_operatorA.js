@@ -22,7 +22,7 @@ var squareOfWordLength=function(ValoneString){
  
 
   console.log("...............*******...........");
-
+ 
 
   var noReturnNoArg=function()
     {
